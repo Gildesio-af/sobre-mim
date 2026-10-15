@@ -109,3 +109,62 @@ h1 {
     color: #808080;
     font-size: 0.9rem;
 }
+
+/* ========== MEDIA QUERIES ========== */
+
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.1rem;
+        padding-bottom: 10px;
+    }
+
+    .description {
+        font-size: 1.05rem;
+    }
+
+    .tech-list {
+        gap: 10px;
+    }
+
+    .tech-item {
+        padding: 8px 15px;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .section-title {
+        font-size: 1rem;
+        padding-bottom: 8px;
+    }
+
+    .description {
+        font-size: 0.95rem;
+    }
+
+    .tech-list {
+        gap: 8px;
+    }
+
+    .tech-item {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+    }
+}
